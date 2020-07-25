@@ -1,1 +1,5 @@
 /***********Function Objects from JavaScript: The Definitive Guide, 2th Edition by David Flanagan**************/
+1.Functions are not just a syntatic feature of javascript, but also a datatype.
+2.JavaScript provides the Function object type as a wrapper.
+3.The Function object has two properties: arguments, which contains an arrayof arguments passed to the function, and caller which refers to the function that called the current function
+4.The first point is that the arguments and caller properties of the Function object are only defined while the function is being executed. If you try to access these properties from outside the function, their value will be NULL.
